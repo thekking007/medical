@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-header{
+    background-image: url(../img/bg_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.menu{
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.74);
+}
+.logo a{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.logo a:hover{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    margin-top: 12px;
+}
+.logo span{
+    color: #6bc2f1;
+    letter-spacing: 1px;
+}
+.menu-item{
+    list-style: none;
+    width: 100%;
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.menu-item li:first-child{
+    margin-left: 0;
+}
+.menu-item li:last-child{
+    float: right;
+}
+.menu-item li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.menu-item li a{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 46px;
+    color: #000;
+}
+.menu-item li a{
+    text-decoration: none;
+}
+.start{
+    background-color: #6bc2f1;
+    border: 1px solid #6bc2f1;
+    color: white!important;
+    font-size: 12px!important;
+    font-weight: normal!important;
+    padding: 9px 20px; 
+}
+.header-detail{
+    box-sizing: border-box;
+    height: 350px;
+    width: 400px;
+    margin-left: 15%;
+    margin-top: 170px;
+    color: white;
+}
+.header-detail h1{
+    color: white;
+    font-size: 50px;
+}
+.header-detail span{
+    font-weight: bold;
+}
+.header-detail h4{
+    font-size: 20px;
+    margin-top: 12px;
+    font-weight: normal;
+}
+.header-detail p{
+    margin-top: 45px;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+.get-started{
+    background-color: white;
+    border: 1px solid white;
+    color: black!important;
+    font-size: 11px!important;
+    font-weight: bold;
+    padding: 12px 30px;         
+}
+.banner{
+    height: 100vh;
+}
+.banner-detail .col-sm-6{
+    margin-top: 19%;
+    margin-left: 7%;
+}
+.img{    
+    margin-top: 50%;
+    margin-left: 60px;
+    height: 400px;
+    
+}
+.banner-detail .col-sm-6 h6{
+    color: #6bc2f1;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.banner-detail .col-sm-6 p{
+    margin-top: 20px;
+    font-size: 15px;
+    width: 400px;
+    margin-bottom: 50px;
+}
+.get-started-now{
+    background-color: #6bc2f1;
+    border: 1px solid #6bc2f1;
+    color: white!important;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 30px;     
+}
+.feature-area{
+    height: 100vh;
+    width: 90%;
+}
+.banner-1{
+    background-image: url(../img/banner-img.jpg);
+    height: 330px;
+    width: 55%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.banner-1 h6{
+    padding: 150px 180px;
+}
+.banner-2{
+    background-color: #6bc2f1;
+    height: 330px;
+    width: 60%;
+    color: white;
+}
+.banner-2 h6{
+    padding-top: 100px;
+    padding-left: 230px;
+}
+.banner-2 h4{
+    padding-left: 150px;
+}
+.banner-2 p{
+    width: 460px;
+    font-size: 12px;
+    padding-left: 110px;
+}
+.banner-3{
+    background-color: #6bc2f1;
+    color: white;
+    height: 330px;
+    width: 50%;
+}
+.banner-3 h6{
+    padding-top: 100px;
+    padding-left: 220px; 
+}
+.banner-3 h4{
+    padding-left: 100px; 
+}
+.banner-3 p{
+    width: 480px;
+    font-size: 12px;
+    padding-left: 70px;
+}
+.banner-4{
+    background-image: url(../img/banner-img2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 330px;
+    width: 50%;
+}
+.facility-area{
+    width: 100%;
+    height: 101vh;
+}
+.facility-area-1{
+    padding-top: 7%;
+}
+.facility-area-2{
+    padding-top: 7%;
+}
+.medical_icon{
+    padding-left: 40%;
+}
+.medical_icon-3{
+    padding-left: 32%;
+}
+.facility-1 h5{
+    margin-top: 30px;
+    margin-right: 33px;
+    text-align: center;
+}
+.facility-1 p{
+    text-align: center;
+    
+    width: 300px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #8b8b8b;
+}
+.facility-area-2 h5{
+    margin-top: 30px;
+    margin-right: 33px;
+    text-align: center;
+}
+.facility-2 p{
+    text-align: center;
+    margin-left: 29px;   
+    width: 300px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #8b8b8b;
+}
+.facility-1 .first{
+    margin-left: 40px;
+}
+.facility-2 h5{
+    margin-left: 80px;
+}
+.medical_icon-5{
+    margin-left: 160px;
+}
+.medical_icon-6{
+    margin-left: 160px;
+}
+.gallery-area{
+    width: 100%;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+.card{
+    margin: 30px 20px;    
+}
+.people-area{
+    width: 100%;
+    height: 100vh;
+    background-color: #6bc2f1;
+}
+.people-detail{
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+}
+.people-detail h1{
+    text-align: center;
+    font-size: 150px;
+    font-style: italic;
+    margin-bottom: -50px;
+}
+.people-detail p{
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: larger;
+    margin: 0 150px;
+}
+.carousel-item{
+    margin-left: 49%;
+}
+.carousel-control-prev{
+    margin-left: 32%;
+}
+.carousel-control-next{
+    margin-right: 30%;
+}
+.carousel{
+    margin-top: 60px;
+}
+.contact-area{
+    width: 100%;
+    height: 100vh;
+}
+.head h1{
+    padding-top: 40px;
+    text-align: center;
+    font-weight: lighter;
+}
+.contact-form{
+    margin-top: 40px;
+}
+.btn{
+    margin-left: 47%;
+    margin-top: 30px;
+    background-color: white;
+    border: 1px solid #6bc2f1;
+    color: #6bc2f1;
+}
+.footer-area{
+    width: 100%;
+    height: 100vh;
+    background-color: #072135;
+}
+.footer-part{
+    padding-top: 15%;
+    color: white;
+}
+.footer-detail h5{
+    margin-left: 20%;
+    margin-bottom: 30px;
+}
+.footer-detail p{
+    margin-left: 20%;
+    font-size: 12px;
+    width: 450px;
+    font-weight: lighter;
+    line-height: 23px;
+}
+.footer-address{
+    
+}
+.footer-address h5{
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+.footer-address p{
+    margin-left: 10%;
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 23px;
+    width: 110px;
+}
